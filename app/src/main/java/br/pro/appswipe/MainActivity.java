@@ -60,7 +60,7 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
-    //metodo que vai receber a direcao, conforme o movimento
+    //metodo que vai receber a direcao, conforme o movimento.
     //private porque não precisa ser acessado por outras classes
     private void mostrarDirecao(String direcao){
         AlertDialog.Builder alerta = new AlertDialog.Builder(this);
